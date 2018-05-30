@@ -1,0 +1,60 @@
+---
+title: "R Tutorial"
+output: 
+  html_document:
+    self_contained: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, tidy= TRUE)
+```
+
+## When we prefer R over Python
+
++ Ad-Hoc Data Exploration
++ Better Graphics
++ Statistical Models with only a few lines
++ Statistical models are more readily available
++ RMarkdown works  smoother with GitHub merges
++ Better handles missing data
+
+## What we will cover:
+### R Tidyverse
+
+
+ ![](~/Dropbox/Shiny Tutorial/tidyverse_flow.png) 
+ 
+
+
+
+```{r echo = TRUE}
+# Brief summary on major packagies
+```
+ 
+ 
+We will focus on Dplyr, Tidyr/Tibble,GGplot2. 
+ 
+# Install and Load 'Tidyverse'
+```{r echo = TRUE, warning= FALSE, error=FALSE, message= FALSE}
+#install.packages('tidyverse')
+library('tidyverse')
+```
+
+```{r echo = TRUE}
+# Data source: https://www.investing.com 
+# Maria loads dollar to diff currency datasets
+# Maria merges and transforms them using dplyr, etc 
+# Maria shows grouping by month year with tidy syntax 
+# Maria plots various  time series plots in ggplot2 by year, country
+# Maria shows easy time series forecast 
+```
+
+```{r}
+# Whatever Cristian feels like showing
+```
+
+# Now let's do exercises:
+
+```{r}
+# Something easy to do with iris dataset as it comes with ggplot2 package
+```
